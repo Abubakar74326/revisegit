@@ -1,27 +1,12 @@
-# Python program to illustrate
-# Iterating over a list
-print("List Iteration")
-l = ["geeks", "for", "geeks"]
-for i in l:
-    print(i)
+# Python program to illustrate if-elif-else ladder
+# !/usr/bin/python
 
-# Iterating over a tuple (immutable)
-print("\nTuple Iteration")
-t = ("geeks", "for", "geeks")
-for i in t:
-    print(i)
-
-# Iterating over a String
-print("\nString Iteration")
-s = "Geeks"
-for i in s:
-    print(i)
-
-# Iterating over dictionary
-print("\nDictionary Iteration")
-d = dict()
-d['xyz'] = 123
-d['abc'] = 345
-for i in d:
-    print("% s % d" % (i, d[i]))
-    print("hello jnb")
+i = 20
+if (i == 10):
+    print("i is 10")
+elif (i == 15):
+    print("i is 15")
+elif (i == 20):
+    print("i is 20")
+else:
+    print("i is not present")
